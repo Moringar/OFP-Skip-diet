@@ -71,5 +71,15 @@ button{
     border-radius: 90px;
     border: none;
 
+    box-shadow: 0px 1px 5px #FF3030 ;
+
     margin: 20px;
+}
+
+button:hover{
+    background: linear-gradient( 90deg, #ff8e8e, #ff8787);
+}
+button:active{
+    background: #FF3030;
+
 }

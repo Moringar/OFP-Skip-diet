@@ -1,0 +1,75 @@
+/* ##################################################### Containers */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(244, 255, 215);
+
+    margin: 0;
+    padding: 0;
+}
+
+.primaryContainer{
+    display: flex;
+    max-width: 1500px;
+
+    width: 100%;
+
+    background-color: rgb(255, 255, 255) ;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+/* ##################################################### Fonts */
+h1, h2, h3, h4, p{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p, button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2{
+    font-size: 60px;
+    margin: 60px 20px 30px 20px;
+    color: rgb(68, 68, 68);
+}
+
+h3{
+    font-size: 27px;
+    margin: 60px 20px 60px 20px;
+    color: rgb(46, 46, 46);
+}
+
+p{
+    font-size: 25px;
+    margin: 20px;
+    color: rgb(67, 67, 67);
+}
+
+/* ////////////////// spécial fonts */
+span.highlight{
+    color: #FF3030;
+}
+
+
+/* ##################################################### Buttons */
+
+button{
+    max-width: 200px;
+
+    font-size: 20px;
+    color: white;
+    background: linear-gradient( 90deg, #ff8e8e, #FF3030);
+    padding: 20px 30px 20px 30px;
+    border-radius: 90px;
+    border: none;
+
+    margin: 20px;
+}

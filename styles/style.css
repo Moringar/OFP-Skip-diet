@@ -1,0 +1,14 @@
+/* Imports and provides the -style- */
+
+
+/* ################################ GENERAL classes */
+@import "general.css";
+
+/* ############################### HEADER's classes*/
+@import "header.css";
+
+/* ############################### MAIN's classes*/
+@import "main.css";
+
+/* ############################### FOOTER's classes*/
+@import "footer.css";

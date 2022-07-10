@@ -1,6 +1,6 @@
 
 header{
-    background-image: url("/assets/dude.png");
+    background-image: url("../assets/dude.png");
     background-repeat: no-repeat;
     background-position: 85% 85%;
 }

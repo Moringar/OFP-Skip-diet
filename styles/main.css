@@ -1,9 +1,9 @@
 /* ############################# Section Main */
 main{
     justify-content: right;
-    background:url(/assets/mads.png) no-repeat 10% 100%,
+    background:url(../assets/mads.png) no-repeat 10% 100%,
     linear-gradient(rgba(255, 237, 182, 0.856), rgba(255, 199, 159, 0.913)),
-    url(/assets/pattern.png) ;
+    url(../assets/pattern.png) ;
 }
 
 main .subContainer{
@@ -59,12 +59,12 @@ main .subContainer{
 
 /* Recipes */
 #daniel{
-    background-image: url(/assets/bigDaddy.jpg);
+    background-image: url(../assets/bigDaddy.jpg);
     background-position: 50% 50%;
     background-size: cover;
 }
 #bigDaddy{
-    background-image: url(/assets/daniel.jpg);
+    background-image: url(../assets/daniel.jpg);
     background-position: 50% 50%;
     background-size: cover;
 }
